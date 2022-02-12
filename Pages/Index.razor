@@ -1,0 +1,14 @@
+﻿@page "/"
+@inject IJSRuntime JSRuntime
+<PageTitle>Index</PageTitle>
+<br />
+<div id="chartdiv">
+</div>
+<style>
+    #chartdiv {
+        width: 100%;
+        height: 700px;
+    }
+</style>
+<button @onclick="ShowChart" class="btn-dark btn m-2"> Show Chart</button>
+@*<button @onclick="Update"> Update</button>*@
